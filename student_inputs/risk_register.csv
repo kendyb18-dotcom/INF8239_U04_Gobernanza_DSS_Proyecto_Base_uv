@@ -1,9 +1,9 @@
 id,scenario,affected,likelihood_1_4,impact_1_4,control,owner,evidence,residual
-R01,REPLACE,REPLACE,2,4,REPLACE,REPLACE,REPLACE,high
-R02,REPLACE,REPLACE,3,3,REPLACE,REPLACE,REPLACE,medium
-R03,REPLACE,REPLACE,2,3,REPLACE,REPLACE,REPLACE,medium
-R04,REPLACE,REPLACE,1,4,REPLACE,REPLACE,REPLACE,medium
-R05,REPLACE,REPLACE,2,2,REPLACE,REPLACE,REPLACE,low
-R06,REPLACE,REPLACE,3,2,REPLACE,REPLACE,REPLACE,medium
-R07,REPLACE,REPLACE,2,4,REPLACE,REPLACE,REPLACE,high
-R08,REPLACE,REPLACE,1,3,REPLACE,REPLACE,REPLACE,low
+R01,"Subestimación de riesgo en comunidades marginadas por falta de registros históricos fiables.","Población rural y asentamientos informales",3,4,"Incorporación de variables proxy de vulnerabilidad y auditoría de equidad demográfica.","Equipo de Datos","Reporte de paridad demográfica","Medio"
+R02,"Dependencia ciega de los operadores en las recomendaciones del DSS sin juicio crítico.","Ciudadanía en general",3,3,"Capacitación obligatoria y obligatoriedad de justificación humana para anular alertas.","Gestor de Operaciones","Bitácora de revisiones manuales","Bajo"
+R03,"Uso de datos obsoletos o degradados que alteren la precisión de las predicciones territoriales.","Comunidades vulnerables",2,4,"Validación automatizada de esquemas y actualización trimestral obligatoria de fuentes.","Ingeniero de Datos","Logs de validación pipeline","Bajo"
+R04,"Filtración accidental de datos sociodemográficos sensibles de familias evaluadas.","Ciudadanos vulnerables",2,5,"Anonimización estricta, encriptación en reposo y control de acceso basado en roles (RBAC).","Oficial de Privacidad","Certificado de cifrado y auditoría de accesos","Bajo"
+R05,"Sesgo de automatización que provoque que las autoridades ignoren zonas no listadas por el sistema.","Zonas rurales aisladas",3,4,"Establecimiento de un cupo fijo de revisión manual para áreas de baja densidad de datos.","Director de Planificación","Actas de asignación presupuestaria","Medio"
+R06,"Efecto bucle de retroalimentación donde zonas más vigiladas reciben otras prioritarias y otras son ignoradas.","Comunidades periféricas",4,3,"Rotación de auditorías de cobertura territorial y penalización de sesgo geográfico.","Científico de Datos","Métricas de cobertura espacial","Medio"
+R07,"Falta de comprensión del modelo por parte de las partes afectadas (opacidad algorítmica).","Ciudadanía",4,2,"Publicación de explicabilidades locales en reportes públicos accesibles.","Especialista UX/Legal","Portal de transparencia activo","Bajo"
+R08,"Caída del sistema durante una ventana crítica de emergencia o temporada de desastres.","Población afectada por eventos climáticos",2,5,"Infraestructura redundante en la nube, pruebas de estrés y plan de contingencia offline.","Arquitecto de Infraestructura","Reporte de pruebas de carga","Bajo"

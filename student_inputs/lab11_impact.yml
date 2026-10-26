@@ -1,9 +1,10 @@
-purpose: REPLACE
-assisted_decision: REPLACE
-users: REPLACE
-affected_population: REPLACE
-owner: REPLACE
-non_predictive_alternative: REPLACE
-out_of_scope_use: REPLACE
-withdrawal_condition: REPLACE
-appeal_mechanism: REPLACE
+system_name: "Sistema de Apoyo a Decisiones de Riesgo Territorial (DSS-TR)"
+purpose: "Priorizar la asignación de recursos preventivos y de mitigación en zonas vulnerables basándose en indicadores históricos y sociodemográficos."
+assisted_decision: "Asignación presupuestaria y despliegue operativo de brigadas de emergencia."
+users: "Comités de prevención de riesgos y autoridades locales de planificación."
+affected_population: "Residentes de comunidades catalogadas con alta y muy alta vulnerabilidad territorial."
+owner: "Dirección de Gestión de Riesgos y Mitigación."
+non_predictive_alternative: "Asignación basada estrictamente en solicitudes manuales por escrito y reportes históricos reactivos de incidentes pasados."
+out_of_scope_use: "Uso para discriminación habitacional, denegación selectiva de servicios básicos o perfilamiento punitivo de comunidades."
+appeal_mechanism: "Canal presencial y digital de revisión humana para impugnar asignaciones o prioridades erróneas."
+withdrawal_condition: "Si el sesgo de falsos negativos en poblaciones vulnerables supera el 15% o si se detecta un uso fuera de alcance no auditable."

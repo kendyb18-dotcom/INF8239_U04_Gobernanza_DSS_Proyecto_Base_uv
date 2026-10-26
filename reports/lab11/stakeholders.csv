@@ -1,0 +1,5 @@
+actor,benefit,harm,power,engagement_mechanism
+Residentes de zonas vulnerables,Atención preventiva oportuna y reducción de daños ante desastres.,Estigmatización territorial o exclusión de recursos por errores del modelo.,Bajo,Consultas comunitarias y buzón presencial de reclamos.
+Autoridades locales,Optimización eficiente del presupuesto y respuesta rápida basada en datos.,Sobrecarga operativa si el sistema genera alertas falsas masivas.,Alto,Comités técnicos de validación y supervisión de decisiones.
+Personal de campo (Brigadas),Mejor planificación de rutas e intervención directa priorizada.,Exposición a riesgos imprevistos por priorización errónea del algoritmo.,Medio,Canal directo de retroalimentación operativa post-intervención.
+Auditoría y Defensoría Ciudadana,Transparencia en la asignación de recursos públicos.,Dificultad para auditar modelos complejos de caja negra.,Alto,Acceso completo a bitácoras de decisiones y códigos fuente.
