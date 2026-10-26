@@ -1,6 +1,6 @@
-priority_harm: REPLACE
-primary_metric: REPLACE
-tolerance: REPLACE
-evidence: REPLACE
-limitation: REPLACE
-recommendation: REPLACE
+priority_harm: "Exclusión de comunidades vulnerables de la asignación de recursos preventivos críticos debido a falsos negativos del modelo."
+primary_metric: "Recall / Tasa de Verdaderos Positivos por grupo protegido"
+tolerance: "Brecha máxima de 0.08 entre grupos en la tasa de sensibilidad (recall disparity <= 0.08)"
+evidence: "Reportes generados en reports/lab12/ con comparación de modelos (Logistic Regression vs Decision Tree), métricas globales y desagregadas."
+limitation: "El dataset sintético no captura dinámicas sociales complejas; las brechas observadas indican disparidad estadística, no causalidad probada."
+recommendation: "GO_WITH_CONTROLS: Desplegar el modelo logístico baseline por su mayor transparencia y menor complejidad (Green AI), condicionado a la revisión humana obligatoria."
